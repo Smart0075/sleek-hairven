@@ -7,3 +7,19 @@ body{
     align-items: center;
     background-color: pink;
 }
+.chatBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.textBtn{
+    position: flex;
+    display: none;
+     bottom: 100px;
+    right: 20px;
+}
+.textBtn a{
+ bottom: 20px;
+    right: 20px;
+}
