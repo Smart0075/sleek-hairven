@@ -8,21 +8,32 @@ chatBtn.addEventListener("click",function(){
         text.style.display = "block"
     }
 })
+const address = document.getElementById("address");
+const headOffice= document.getElementById("headOffice");
+address.addEventListener("click", function(){
+    if(headOffice.style.display ==="block"){
+        headOffice.style.display = "none";
+    }else{
+        headOffice.style.display ="block"
+    }
+}
 
- const toggle = document.getElementById("toggle");
-toggle.addEventListener("click",function(){
+)
+
+ const mode = document.getElementById("mode");
+mode.addEventListener("click",function(){
  document.body.classList.toggle("mode")
-   
 }
 )
-const p = document.getElementById("p");
+
+const toggleBtn = document.getElementById("toggleBtn");
 const hiddenBtn = document.getElementById("hiddenBtn");
 hiddenBtn.addEventListener("click", function(){
     
-    if(p.style.display ==="block"){
-        p.style.display = 'none'
+    if(toggleBtn.style.display ==="block"){
+        toggleBtn.style.display = 'none'
     }else{
-        p.style.display = "block"
+        toggleBtn.style.display = "block"
     }
 }
 
