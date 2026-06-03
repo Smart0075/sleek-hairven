@@ -30,7 +30,6 @@ background: white;
 }
  
 .toggle{
-    position: fixed;
    display: flex;
 }
 body.mode{
@@ -47,10 +46,12 @@ body.mode{
 
 .toggleText{
     display: none;
+    
 }
 .toggleText a{
-    display: grid;
+  display: flex;
     padding: 5px;
+
 }
 
 .addressBtn{
@@ -100,4 +101,35 @@ left: 80px;
   box-shadow: 1px 2px 3px;
   border-radius: 16px;
   background: linear-gradient(pink,white);
+}
+
+
+.slider{
+    padding: 30px;
+   width: 250px;
+   
+    overflow: hidden;
+    margin: auto;
+}
+
+.slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+   transition: transform 1s ease;
+}
+.slides img{
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.video{
+ 
+   padding: 30px;
+}
+
+.video video{
+  width: 100%;
+   
 }
