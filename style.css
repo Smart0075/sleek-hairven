@@ -6,6 +6,29 @@ body{
     text-align: center;
     align-items: center;
 }
+.img{
+    justify-content: space-between;
+    display: flex;
+      padding: 10px;
+   background: linear-gradient(goldenrod,white);
+   background-position: fixed;
+    
+}
+.img img{
+    display: flex;
+     position: fixed;
+    width: 30px;
+
+    border-radius: 100px;
+  min-width: 50px;
+}
+ .img h1{
+    font-size: small;
+font-weight: bold;
+ margin: auto;
+ }
+
+
 .chatBtn{
     position: fixed;
     bottom: 20px;
@@ -37,13 +60,8 @@ body.mode{
     background-color: pink;
 }
 
-.hidden{
-    position: flex;
-  direction: rtl;
-    justify-self: right;
-    margin: 10px;
-}
 
+  
 
 .toggleText{
     display: none;
