@@ -7,6 +7,8 @@ body{
     align-items: center;
 }
 .img{
+    width: 100%;
+     position: fixed;
     justify-content: space-between;
     display: flex;
       padding: 10px;
@@ -16,11 +18,10 @@ body{
 }
 .img img{
     display: flex;
-     position: fixed;
-    width: 30px;
+    width: 40px;
 
     border-radius: 100px;
-  min-width: 50px;
+  min-width: 70px;
 }
  .img h1{
     font-size: small;
@@ -107,6 +108,7 @@ left: 80px;
 }
 
 .sleek{
+     padding: 10%;
     margin: auto;
     width: 100%;
     max-width: 80%;
